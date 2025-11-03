@@ -1,0 +1,30 @@
+import React from "react";
+import Particles from "react-tsparticles";
+
+
+function Particle() {
+  const particlesInit = async (main) => {
+    // Initialize tsParticles (no loadFull needed)
+    console.log(main); // optional
+  };
+
+  return (
+    <Particles
+      id="tsparticles"
+      init={particlesInit}
+      options={{
+        particles: {
+          number: { value: 160, density: { enable: true, value_area: 1500 } },
+          links: { enable: false, opacity: 0.03 },
+          move: { direction: "right", speed: 0.05 },
+          size: { value: 1 },
+          opacity: { anim: { enable: true, speed: 1, opacity_min: 0.05 } },
+        },
+        interactivity: { events: { onClick: { enable: true, mode: "push" } }, modes: { push: { quantity: 1 } } },
+        retina_detect: true,
+      }}
+    />
+  );
+}
+
+export default Particle;
