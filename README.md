@@ -39,7 +39,7 @@ npm install
 #Start the development server
 npm start
 
-#Open http://localhost:3000 to view it in the browser.
+Open http://localhost:3000 to view it in the browser.
 
 #Deployment
 
@@ -53,3 +53,4 @@ You can reach me via the Contact Form in the portfolio or at:
 Email: jimohabdulquyum@gmail.com
 
 Phone: +2349115150320 / +2349137702515
+
