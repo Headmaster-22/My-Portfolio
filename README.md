@@ -41,10 +41,26 @@ npm start
 
 Open http://localhost:3000 to view it in the browser.
 
-#Deployment
+## Deployment
+The app is deployed on Netlify. You can find the live version of the app at https://jimohabdulquyum.netlify.app/.
 
-#This project can be deployed on platforms like Netlify, #Vercel, or GitHub Pages. Before deploying, run:
-npm run build
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+- Special thanks to the open-source community for providing invaluable resources and tools.
+
+## Contact
+If you have any questions or feedback, please feel free to contact me at <jimohabdulquyum@gmail.com>.
+
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your fork.
+5. Submit a pull request to the main repository.
+Please note that this project is open-source and contributions are welcome. By contributing to this project, you agree to abide by the project's code of conduct and to the terms of the license.
 
 #and deploy the generated build folder.
 
