@@ -111,9 +111,18 @@ function Projects() {
               demoLink="https://startup-jimoh.streamlit.app"
             />
           </Col>
-          
-          
-          
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={""}
+              isBlog={false}
+              title="Video Upload Service"
+              description="A Spring Boot project built with Gradle that enables users to upload and manage videos through a web interface.
+               Implements secure file handling, RESTful APIs, and local storage integration to ensure efficient video management and smooth backend performance."
+              ghLink="https://github.com/Headmaster-22/My-App_Video-Upload"
+              demoLink="_blank"
+            />
+          </Col>
 
           
         </Row>
