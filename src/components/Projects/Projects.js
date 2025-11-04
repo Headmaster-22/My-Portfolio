@@ -76,17 +76,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={""}
-              isBlog={false}
-              title="Loan Prediction"
-              description="About A Streamlit web app that predicts loan approval using machine learning. Users enter financial details like income, dependents, and credit history to see instant results.
-             Built with Python, XGBoost, and Joblib for real-time, data-driven loan eligibility predictions.."
-              ghLink="https://github.com/Headmaster-22/Loan-Prediction"
-              demoLink="https://loan-prediction-jimoh.streamlit.app"
-            />
-          </Col>
+        
 
           
         </Row>
