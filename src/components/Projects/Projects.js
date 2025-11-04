@@ -76,7 +76,42 @@ function Projects() {
             />
           </Col>
 
-        
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={""}
+              isBlog={false}
+              title="Loan Prediction"
+              description="A Streamlit web app that predicts loan approval using machine learning.
+               Users enter financial details like income, dependents, and credit history to see instant results. Built with Python, XGBoost, and Joblib for real-time, data-driven loan eligibility predictions"
+              ghLink="https://github.com/Headmaster-22/Loan-Prediction"
+              demoLink="https://loan-prediction-jimoh.streamlit.app"
+            />
+
+            
+
+
+            https://healthbot-19-your-covid-19-symptom-advisor.streamlit.app
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={""}
+              isBlog={false}
+              title="Healthbot-19"
+              description="HealthBot 19: Your COVID-19 Symptom Advisor is an interactive chatbot leveraging NLP to provide tailored guidance on COVID-19 symptoms.
+               It offers personalized advice, symptom analysis, and directs users to relevant resources, ensuring informed decision-making and support during the pandemic."
+              ghLink="https://github.com/Headmaster-22/HealthBot-19-Your-COVID-19-Symptom-Advisor"
+              demoLink="https://healthbot-19-your-covid-19-symptom-advisor.streamlit.app"
+            />
+
+            
+
+
+            https://healthbot-19-your-covid-19-symptom-advisor.streamlit.app
+          </Col>
+          
+          
+          
 
           
         </Row>
