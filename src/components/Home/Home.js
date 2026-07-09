@@ -78,16 +78,18 @@ function Home() {
                   <AiOutlineTwitter />
                 </a>
               </li>
+
               <li className="social-icons">
                 <a
-                  href="-blank"
-                  target="https://www.linkedin.com/in/abdulquyum-jimoh-71117139b"
+                  href="https://www.linkedin.com/in/abdulquyum-jimoh-71117139b"
+                  target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
               </li>
+              
               <li className="social-icons">
                 <a
                   href="https://www.instagram.com/headmaster_22?igsh=cnRqNnFtMzJ1aTZw"
