@@ -11,7 +11,7 @@ function AboutCard() {
             Hello everyone! I’m <span className="purple">Jimoh Abdulquyum</span>{" "}
             from <span className="purple">Lagos, Nigeria</span>.
             <br />
-            I’m a passionate <span className="purple">Computer Science student</span>{" "}
+            I’m a passionate <span className="purple">Software Engineer student</span>{" "}
             with a strong interest in{" "}
             <span className="purple">Data Science</span>,{" "}
             <span className="purple">Artificial Intelligence</span>, and{" "}
@@ -30,13 +30,13 @@ function AboutCard() {
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Watching and playing football ⚽
+              <ImPointRight /> Football.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Exploring new tech tools and environments 💻
+              <ImPointRight /> Exploring new tech tools and environments.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Gaming and listening to music 🎮🎧
+              <ImPointRight /> Gaming and listening to music.
             </li>
           </ul>
           <br/>
@@ -50,7 +50,7 @@ function AboutCard() {
               <ImPointRight /> UI/UX Design
             </li>
             <li className="about-activity">
-              <ImPointRight /> Responsive & Mobile-First Design
+              <ImPointRight /> Responsive & Mobile Design
             </li>
             <li className="about-activity">
               <ImPointRight /> API Integration & Full-Stack Solutions
@@ -59,7 +59,7 @@ function AboutCard() {
           <br/>
           
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Innovation begins with curiosityand a little fun; keep building and learning!"
+            "Innovation begins with curiosity and a little fun; keep building and learning!"
           </p>
           <footer className="blockquote-footer">Jimoh Abdulquyum Irewole Ishola</footer>
 

@@ -31,17 +31,6 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={"src/Assets/AutoGlide.png"}
-              isBlog={false}
-              title="AutoGlide Motors Website"
-              description="My Very First Full-Stack Project: A responsive website for AutoGlide Motors, built with simplr HTML, Javascript & CSS."
-              ghLink="https://github.com/Headmaster-22/1st-Semester-Project"
-              demoLink="https://headmaster-22.github.io/1st-Semester-Project"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={""}
               isBlog={false}
               title="My-App Frontend"
@@ -148,6 +137,64 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={"src/Assets/AutoGlide.png"}
+              isBlog={false}
+              title="AutoGlide Motors Website"
+              description="My Very First Full-Stack Project: A responsive website for AutoGlide Motors, built with simple HTML, Javascript & CSS."
+              ghLink="https://github.com/Headmaster-22/1st-Semester-Project"
+              demoLink="https://headmaster-22.github.io/1st-Semester-Project"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={""}
+              isBlog={false}
+              title="Semester 3 Project- CurrenSee"
+              description="CurrenSee was created to provide accurate real time currency conversion in today’s global economy.
+               As international travel, online shopping, and cross border business continue to grow, people need dependable exchange tools. The app delivers updated rates, supports multiple currencies, and offers a simple interface for easy currency management"
+              ghLink="https://github.com/Headmaster-22/Semester-Three-Project-CurrenSee-Flutter-.git"
+              demoLink="_blank"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={""}
+              isBlog={false}
+              title="CodeAlpha- Shopsphere_Frontend"
+              description="Shopsphere is a full-stack e-commerce project built with React and a custom backend.
+              It features product browsing, cart management, user authentication, and test-only payment integration, showcasing modern frontend architecture and API-driven design."
+              ghLink="https://github.com/Headmaster-22/CodeAlpha-Shopsphere_Frontend.git"
+              demoLink="_blank"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={""}
+              isBlog={false}
+              title="CodeAlpha- Shopsphere_Backend"
+              description="Shopsphere is a full-stack e-commerce project built with React and a custom backend.
+              It features product browsing, cart management, user authentication, and test-only payment integration, showcasing modern frontend architecture and API-driven design."
+              ghLink="https://github.com/Headmaster-22/CodeAlpha-Shopsphere_Backend.git"
+              demoLink="_blank"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={""}
+              isBlog={false}
+              title="CodeAlpha- ChatApp"
+              description="A Django-based real-time chat application with full social media features including user profiles, posts, comments, likes, follow system, and messaging.
+              Built with Django, JavaScript, and Bootstrap for seamless real-time interactions and social networking experience."
+              ghLink= "https://github.com/Headmaster-22/CodeAlpha-ChatApp.git"
+              demoLink="_blank"
+            />
+          </Col>
           
         </Row>
       </Container>

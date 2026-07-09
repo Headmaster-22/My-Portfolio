@@ -18,6 +18,7 @@ import AWS from "../../Assets/TechIcons/AWS.svg";
 import Tailwind from "../../Assets/TechIcons/Tailwind.svg";
 import Git from "../../Assets/TechIcons/Git.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
+import GitHub from "../../Assets/TechIcons/github.svg";
 import "./Techstack.css";
 
 function Techstack() {
@@ -112,6 +113,11 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <img src={Postman} alt="Postman" />
         <div className="tech-icons-text">Postman</div>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={GitHub} alt="GitHub" width={32} height={32} />
+        <div className="tech-icons-text">GitHub</div>
       </Col>
     </Row>
   );

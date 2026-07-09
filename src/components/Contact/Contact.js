@@ -46,6 +46,9 @@ const ContactCard = () => {
             <li>
               📧 <span className="purple">jimohabdulquyum@gmail.com</span>
             </li>
+             <li>
+              📧 <span className="purple">jimohquyum@outlook.com</span>
+            </li>
             <br/>
             <li>
               📞 <span className="purple">+2349115150320,  +2349137702515</span>
@@ -53,7 +56,7 @@ const ContactCard = () => {
             <br/>
 
             <li>
-              📍 <span className="purple">1, Alara Street, Sabo-Yaba, Lagos</span>
+              📍 <span className="purple">Lagos, Nigeria</span>
             </li>
           </ul>
 

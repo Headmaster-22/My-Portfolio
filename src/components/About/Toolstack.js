@@ -7,6 +7,8 @@ import intelliJ from "../../Assets/TechIcons/intellij-idea.svg";
 import pycharm from "../../Assets/TechIcons/Pycharm.svg";
 import mysql from "../../Assets/TechIcons/mysql.svg"
 import phpmyadmin from "../../Assets/TechIcons/phpmyadmin.svg"
+import visualstudio from "../../Assets/TechIcons/visualstudio.svg"
+import postgresql from "../../Assets/TechIcons/SQL.svg"
 
 function Toolstack() {
   return (
@@ -37,7 +39,16 @@ function Toolstack() {
         <img src={phpmyadmin} alt="go" className="tech-icon-images" />
         <div className="tech-icons-text">Xampp-PhpMyAdmin</div>
       </Col>
+      <Col xs={4} md={2} className="tech-icons ">
+        <img src={visualstudio} alt="go" className="tech-icon-images" />
+        <div className="tech-icons-text">Visual Studio</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons ">
+        <img src={postgresql} alt="go" className="tech-icon-images" />
+        <div className="tech-icons-text">PostgreSQL</div>
+      </Col>
     </Row>
+    
   );
 }
 

@@ -20,7 +20,7 @@ function Home2() {
               I’ve worked with a variety of technologies, including{" "}
               <i>
                 <b className="purple">
-                  HTML, CSS, JavaScript, C#, MongoDB, Flutter, and AWS
+                  React, HTML, CSS, JavaScript, C#, MongoDB, Flutter, and AWS
                 </b>
               </i>
               , and I’m always eager to explore new tools that enhance my workflow.
